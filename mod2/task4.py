@@ -27,7 +27,7 @@ a = input().strip()
 if a.isdigit():
     n = int(a)
     if n > 0:
-        print(f"{binary(n)}, {octal(n)}, {hex(n)}")
+        print(f"{binary(n)}, {octal(n)}, {hexadecimal(n)}")
     else:
         print("Неверный ввод")
 else:
